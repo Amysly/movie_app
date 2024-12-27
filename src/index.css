@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+
+.slick-prev, .slick-next {
+    @apply absolute  opacity-80 z-10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.slick-prev {
+    @apply left-40;
+   
+}
+
+.slick-next {
+    @apply right-40;
+  
+}
+
+.slick-dots {
+    @apply absolute bottom-5 z-10 flex justify-center space-x-2;
+  }
+  .slick-dots li button:before {
+    @apply text-white text-sm opacity-70;
+  }
+  .slick-dots li.slick-active button:before {
+    @apply text-gray-950 opacity-100;
+  }
+  
