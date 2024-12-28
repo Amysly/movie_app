@@ -55,7 +55,7 @@ const Header = () => {
           <div
             className={`${
               isOpen ? "flex" : "hidden"
-            } absolute top-16 right-0 w-72 mr-10 bg-zinc-900 flex-col items-center z-20
+            } absolute top-16 right-0 w-52 mr-3 bg-zinc-400 flex-col items-center z-20
             lg:flex lg:static lg:w-auto lg:bg-transparent lg:flex-row`}
           >
             <ul className="flex flex-col lg:flex-row lg:space-x-11 font-serif text-lg p-6 leading-10">
