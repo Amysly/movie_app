@@ -38,7 +38,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer text-gray-950 dark:text-white text-lg font-bold"
           >
-            <img src={logo2} alt="Company Logo" className="w-20 h-auto rounded-full" />
+            <h1 classname='text-lg lg:text-3xl sm:text-xl text-yellow-400 font-serif'>MyMovies</h1>
           </Link>
 
           {/* Mobile Menu Toggle */}
@@ -55,7 +55,7 @@ const Header = () => {
           <div
             className={`${
               isOpen ? "flex" : "hidden"
-            } absolute top-16 right-0 w-52 mr-3 bg-zinc-400 flex-col items-center z-20
+            } absolute top-16 right-0 w-52 mr-3 bg-zinc-950 flex-col items-center z-20
             lg:flex lg:static lg:w-auto lg:bg-transparent lg:flex-row`}
           >
             <ul className="flex flex-col lg:flex-row lg:space-x-11 font-serif text-lg p-6 leading-10">
